@@ -50,7 +50,6 @@ O ambiente Databricks Free Edition não possui integração direta com o Airflow
 | Clima | API pública Open-Meteo | JSON com séries horárias | Diária |
 | Relatos | Dados no contrato do VigiaVia; consultar metadados dos arquivos efetivamente utilizados | JSON (array de objetos) | Diária / lotes |
 
-**Atenção à proveniência:** a implementação em `dags/vigiavia_fontes.py` atualmente descreve a geração de relatos como demonstrativa (`origem_dado = demonstracao`). A documentação anterior também descrevia as amostras da pasta `amostras/` como sintéticas. Se os arquivos atualmente versionados em `amostras/` forem coletas reais, atualizar esta seção e a origem dos dados somente após conferir os próprios arquivos, metadados e evidência de coleta. Não misturar amostras sintéticas com dados reais sem identificação.
 
 ## Estrutura
 
